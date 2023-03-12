@@ -6,6 +6,12 @@ import { Task5_4 } from './modules/Task5_4';
 import { Task5_5 } from './modules/Task5_5';
 import { Task5_6 } from './modules/Task5_6';
 import { Task5_7 } from './modules/Task5_7';
+import { Task6_1 } from './modules/task6/task6_1';
+import { Task6_2 } from './modules/task6/task6_2';
+import { Task7_1 } from './modules/task7/task7_1';
+import { Task7_2 } from './modules/task7/task7_2';
+import { Task7_3 } from './modules/task7/task7_3';
+import { Task7_4 } from './modules/task7/task7_4';
 
 
 function App() {
@@ -56,4 +62,4 @@ function App() {
 
 
 
-export default Task5_7;
+export default Task7_4;
