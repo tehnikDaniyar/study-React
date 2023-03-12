@@ -12,6 +12,9 @@ import { Task7_1 } from './modules/task7/task7_1';
 import { Task7_2 } from './modules/task7/task7_2';
 import { Task7_3 } from './modules/task7/task7_3';
 import { Task7_4 } from './modules/task7/task7_4';
+import { Task8_1 } from './modules/task8/Task8_1';
+import { Task8_2 } from './modules/task8/Task8_2';
+
 
 
 function App() {
@@ -60,6 +63,4 @@ function App() {
 	</>
 };
 
-
-
-export default Task7_4;
+export default Task8_2;
