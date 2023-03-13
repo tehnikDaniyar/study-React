@@ -1,4 +1,7 @@
 import './App.css';
+import { Task10_1 } from './modules/task10/task10_1';
+import { Task11_1 } from './modules/task11/task11_1';
+import { Task11_2 } from './modules/task11/task11_2';
 import { Task5_1 } from './modules/Task5_1';
 import { Task5_2 } from './modules/Task5_2';
 import { Task5_3 } from './modules/Task5_3';
@@ -14,6 +17,9 @@ import { Task7_3 } from './modules/task7/task7_3';
 import { Task7_4 } from './modules/task7/task7_4';
 import { Task8_1 } from './modules/task8/Task8_1';
 import { Task8_2 } from './modules/task8/Task8_2';
+import { Task9_1 } from './modules/task9/task9_1';
+import { task9_2 } from './modules/task9/task9_2';
+import { task9_3 } from './modules/task9/task9_3';
 
 
 
@@ -63,4 +69,4 @@ function App() {
 	</>
 };
 
-export default Task8_2;
+export default Task11_2;
