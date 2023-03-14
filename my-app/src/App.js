@@ -2,6 +2,12 @@ import './App.css';
 import { Task10_1 } from './modules/task10/task10_1';
 import { Task11_1 } from './modules/task11/task11_1';
 import { Task11_2 } from './modules/task11/task11_2';
+import { Task12_1 } from './modules/task12/Task12_1';
+import { Task12_2 } from './modules/task12/Task12_2';
+import { Task12_3 } from './modules/task12/Task12_3';
+import { Task12_4 } from './modules/task12/Task12_4';
+import { Task12_5 } from './modules/task12/Task12_5';
+import { Task12_6 } from './modules/task12/Task12_6';
 import { Task5_1 } from './modules/Task5_1';
 import { Task5_2 } from './modules/Task5_2';
 import { Task5_3 } from './modules/Task5_3';
@@ -69,4 +75,4 @@ function App() {
 	</>
 };
 
-export default Task11_2;
+export default Task12_6;

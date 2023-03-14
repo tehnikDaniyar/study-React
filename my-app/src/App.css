@@ -59,3 +59,10 @@ td {
 .yellowText {
 	color: yellow;
 }
+
+button {
+	padding: 10px 15px;
+	background-color: aqua;
+	font-size: 18px;
+	font-weight: 600;
+}
