@@ -8,6 +8,11 @@ import { Task12_3 } from './modules/task12/Task12_3';
 import { Task12_4 } from './modules/task12/Task12_4';
 import { Task12_5 } from './modules/task12/Task12_5';
 import { Task12_6 } from './modules/task12/Task12_6';
+import { Taask13_1 } from './modules/task13/task13_1';
+import { Taask13_2 } from './modules/task13/task13__2';
+import { Taask13_3 } from './modules/task13/task13__3';
+import { Task14_1 } from './modules/task14/Task14_1';
+import { Task14_2 } from './modules/task14/Task14_2';
 import { Task5_1 } from './modules/Task5_1';
 import { Task5_2 } from './modules/Task5_2';
 import { Task5_3 } from './modules/Task5_3';
@@ -75,4 +80,4 @@ function App() {
 	</>
 };
 
-export default Task12_6;
+export default Task14_2;

@@ -66,3 +66,18 @@ button {
 	font-size: 18px;
 	font-weight: 600;
 }
+
+ul,
+ol,
+li {
+	list-style: none;
+
+	padding: 5px;
+	font-size: 18px;
+	color: brown;
+}
+
+li {
+	border-bottom: 1px solid #282c34;
+	width: 50px;
+}
