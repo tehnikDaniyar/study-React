@@ -18,6 +18,7 @@ import { Task16_1 } from './modules/task16/task16_1';
 import { Task16_2 } from './modules/task16/task16_2';
 import { Task16_3 } from './modules/task16/task16_3';
 import { Task16_4 } from './modules/task16/task16_4';
+import { Task17_1 } from './modules/task17/task17_1';
 import { Task5_1 } from './modules/Task5_1';
 import { Task5_2 } from './modules/Task5_2';
 import { Task5_3 } from './modules/Task5_3';
@@ -84,4 +85,4 @@ function App() {
 	</>
 };
 
-export default Task16_4;
+export default Task17_1;
