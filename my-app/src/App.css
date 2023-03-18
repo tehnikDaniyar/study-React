@@ -66,6 +66,8 @@ button {
 	background-color: aqua;
 	font-size: 18px;
 	font-weight: 600;
+	margin-bottom: 20px;
+	cursor: pointer;
 }
 
 ul,
@@ -81,4 +83,29 @@ li {
 li {
 	border-bottom: 1px solid #282c34;
 	width: 50px;
+}
+
+span {
+	font-size: 30px;
+	padding: 10px;
+	border: 1px dotted black;
+	display: inline-block;
+	margin-bottom: 20px;
+}
+
+body {
+	padding: 30px;
+}
+
+.red {
+	background-color: red;
+}
+
+.green {
+	background-color: green;
+}
+
+.active {
+	display: none;
+
 }
