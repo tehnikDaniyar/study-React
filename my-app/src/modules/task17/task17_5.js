@@ -4,7 +4,7 @@ import { generatorId } from "../../functions/functions";
 export function Task17_5() {
 	let [name, setName] = useState("John");
 	let [surn, setSurn] = useState("Smit");
-	let [age, setAge] = useState("30");
+	let [age, setAge] = useState(30);
 
 	const users = [
 		{ id: generatorId(), name: name, surn: surn, age: age },

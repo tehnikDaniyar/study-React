@@ -23,6 +23,12 @@ import { Task17_2 } from './modules/task17/task17_2';
 import { Task17_3 } from './modules/task17/task17_3';
 import { Task17_4 } from './modules/task17/task17_4';
 import { Task17_5 } from './modules/task17/task17_5';
+import { Task18_1 } from './modules/task18/task18_1';
+import { Task18_2 } from './modules/task18/task18_2';
+import { Task18_3 } from './modules/task18/task18_3';
+import { Task18_4 } from './modules/task18/task18_4';
+import { Task18_5 } from './modules/task18/task18_5';
+import { Task18_6 } from './modules/task18/task18_6';
 import { Task5_1 } from './modules/Task5_1';
 import { Task5_2 } from './modules/Task5_2';
 import { Task5_3 } from './modules/Task5_3';
@@ -89,4 +95,4 @@ function App() {
 	</>
 };
 
-export default Task17_5;
+export default Task18_6;
