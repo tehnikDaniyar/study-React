@@ -107,5 +107,24 @@ body {
 
 .active {
 	display: none;
+}
 
+input {
+	display: block;
+	width: 30%;
+	/* margin: 0 auto; */
+	align-items: center;
+	padding: 10px 20px;
+	font-size: 24px;
+	font-weight: bold;
+	background-color: cadetblue;
+	margin-bottom: 30px;
+}
+
+p {
+	width: 30%;
+	border: 3px dotted red;
+	padding: 10px 20px;
+	font-size: 32px;
+	font-style: italic;
 }
