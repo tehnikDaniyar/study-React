@@ -128,3 +128,15 @@ p {
 	font-size: 32px;
 	font-style: italic;
 }
+
+[type="checkbox"] {
+	display: inline;
+	width: auto;
+	width: 40px;
+	height: 40px;
+	box-shadow: 4px 4px 15px 2px black;
+}
+
+._hide {
+	display: none;
+}

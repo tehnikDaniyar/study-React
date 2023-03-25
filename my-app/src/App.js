@@ -34,6 +34,11 @@ import { Task19_2 } from './modules/task19/task19_2';
 import { Task19_3 } from './modules/task19/task19_3';
 import { Task20_1 } from './modules/task20/task20_1';
 import { Task20_2 } from './modules/task20/task20_2';
+import { Task21 } from './modules/task21/task21';
+import { Task21_1 } from './modules/task21/task21_1';
+import { Task21_3 } from './modules/task21/task21_3';
+import { Task21_4 } from './modules/task21/task21_4';
+import { Task21_2 } from './modules/task21/tsk21_2';
 import { Task5_1 } from './modules/Task5_1';
 import { Task5_2 } from './modules/Task5_2';
 import { Task5_3 } from './modules/Task5_3';
@@ -100,5 +105,4 @@ function App() {
 	</>
 };
 
-export default Task20_2
-	;
+export default Task21_4;
