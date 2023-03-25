@@ -32,6 +32,8 @@ import { Task18_6 } from './modules/task18/task18_6';
 import { Task19_1 } from './modules/task19/task19_1';
 import { Task19_2 } from './modules/task19/task19_2';
 import { Task19_3 } from './modules/task19/task19_3';
+import { Task20_1 } from './modules/task20/task20_1';
+import { Task20_2 } from './modules/task20/task20_2';
 import { Task5_1 } from './modules/Task5_1';
 import { Task5_2 } from './modules/Task5_2';
 import { Task5_3 } from './modules/Task5_3';
@@ -98,4 +100,5 @@ function App() {
 	</>
 };
 
-export default Task19_3;
+export default Task20_2
+	;
