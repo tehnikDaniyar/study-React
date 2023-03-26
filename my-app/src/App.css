@@ -145,3 +145,8 @@ p {
 	display: inline;
 	width: auto;
 }
+
+[type="radio"]::before {
+	width: 30px;
+	height: 30px;
+}
