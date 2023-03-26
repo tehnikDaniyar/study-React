@@ -140,3 +140,8 @@ p {
 ._hide {
 	display: none;
 }
+
+[type="radio"] {
+	display: inline;
+	width: auto;
+}

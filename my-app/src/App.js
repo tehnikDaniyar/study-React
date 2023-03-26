@@ -42,6 +42,8 @@ import { Task21_2 } from './modules/task21/tsk21_2';
 import { Task22_1 } from './modules/task22/task22_1';
 import { Task22_2 } from './modules/task22/task22_2';
 import { Task22_3 } from './modules/task22/task22_3';
+import { Task23 } from './modules/task23/task23';
+import { Task23_1, Task23_2, task23_2 } from './modules/task23/task23_2';
 import { Task5_1 } from './modules/Task5_1';
 import { Task5_2 } from './modules/Task5_2';
 import { Task5_3 } from './modules/Task5_3';
@@ -108,4 +110,4 @@ function App() {
 	</>
 };
 
-export default Task22_3;
+export default Task23_2;
