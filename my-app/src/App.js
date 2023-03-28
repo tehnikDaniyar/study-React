@@ -49,6 +49,7 @@ import { Task25 } from './modules/task25/task25';
 import { Task25_2 } from './modules/task25/task25_2';
 import { Task25_3 } from './modules/task25/task25_3';
 import { Task25_4 } from './modules/task25/task25_4';
+import { Task26_1 } from './modules/task26/task26_1';
 import { Task5_1 } from './modules/Task5_1';
 import { Task5_2 } from './modules/Task5_2';
 import { Task5_3 } from './modules/Task5_3';
@@ -115,4 +116,4 @@ function App() {
 	</>
 };
 
-export default Task25_4;
+export default Task26_1;
