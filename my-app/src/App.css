@@ -150,3 +150,12 @@ p {
 	width: 30px;
 	height: 30px;
 }
+
+.Component {
+	width: 85%;
+	border: 1px solid blue;
+	background-color: #919eb8;
+	margin: 0 auto;
+	padding: 10px;
+	margin-bottom: 30px;
+}

@@ -10,6 +10,6 @@ export function Task26_1() {
 		<ul>
 			{list}
 		</ul>
-		<input value={value} onChange={(e) => setValue(e.target.value)} onBlur={() => setItems([...items, value])}></input>
+		<input value={value} onChange={(e) => setValue(e.target.value)} onBlur={() => { setItems([...items, value]); setValue("") }}></input>
 	</>
 }

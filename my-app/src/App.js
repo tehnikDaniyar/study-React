@@ -1,4 +1,5 @@
 import './App.css';
+import Task28_1 from './modules/taask28/task28_1';
 import { Task10_1 } from './modules/task10/task10_1';
 import { Task11_1 } from './modules/task11/task11_1';
 import { Task11_2 } from './modules/task11/task11_2';
@@ -50,6 +51,8 @@ import { Task25_2 } from './modules/task25/task25_2';
 import { Task25_3 } from './modules/task25/task25_3';
 import { Task25_4 } from './modules/task25/task25_4';
 import { Task26_1 } from './modules/task26/task26_1';
+import { Task27_1 } from './modules/task27/task27_1';
+import Task27_2 from './modules/task27/task27_2';
 import { Task5_1 } from './modules/Task5_1';
 import { Task5_2 } from './modules/Task5_2';
 import { Task5_3 } from './modules/Task5_3';
@@ -68,6 +71,7 @@ import { Task8_2 } from './modules/task8/Task8_2';
 import { Task9_1 } from './modules/task9/task9_1';
 import { task9_2 } from './modules/task9/task9_2';
 import { task9_3 } from './modules/task9/task9_3';
+
 
 
 function App() {
@@ -113,7 +117,10 @@ function App() {
 				</tbody>
 			</table>
 		</ul>
+		<Task27_1 />
+		<Task27_2 />
+		<Task28_1></Task28_1>
 	</>
 };
 
-export default Task26_1;
+export default App;
