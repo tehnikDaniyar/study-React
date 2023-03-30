@@ -1,8 +1,7 @@
 import { useState } from "react";
 const Task28_1 = function () {
 	const [numbers, setNumbers] = useState([1, 2, 3, 4, 5, 6, 7, 8, 9]);
-	console.log(numbers);
-	console.log(Number(null));
+	console.log(Number("s"));
 
 	function getAverage(arr) {
 		// return arr.reduce((summ, num) => summ + num) / arr.length;
@@ -16,8 +15,11 @@ const Task28_1 = function () {
 	};
 
 	function handlerChange(index, event) {
-		setNumbers([...numbers.slice(0, index), Number(event.target.value), ...numbers.slice(index + 1)])
-	}
+		if (Number(event.target.value) || Number(event.target.value) === 0) {
+			setNumbers([...numbers.slice(0, index), Number(event.target.value), ...numbers.slice(index + 1)]);
+		} else {
+		};
+	};
 
 	const inputs = numbers.map((number, index) => <input key={index} type="text" value={number} onChange={(event) => handlerChange(index, event)}></input>)
 

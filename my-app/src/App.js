@@ -1,5 +1,5 @@
 import './App.css';
-import Task28_1 from './modules/taask28/task28_1';
+import Task28_1 from './modules/task28/task28_1';
 import { Task10_1 } from './modules/task10/task10_1';
 import { Task11_1 } from './modules/task11/task11_1';
 import { Task11_2 } from './modules/task11/task11_2';
@@ -71,6 +71,7 @@ import { Task8_2 } from './modules/task8/Task8_2';
 import { Task9_1 } from './modules/task9/task9_1';
 import { task9_2 } from './modules/task9/task9_2';
 import { task9_3 } from './modules/task9/task9_3';
+import Task29_1 from './modules/task29/task29_1';
 
 
 
@@ -117,9 +118,11 @@ function App() {
 				</tbody>
 			</table>
 		</ul>
+		<Task12_6></Task12_6>
 		<Task27_1 />
 		<Task27_2 />
 		<Task28_1></Task28_1>
+		<Task29_1></Task29_1>
 	</>
 };
 
