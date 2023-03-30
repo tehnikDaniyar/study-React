@@ -2,6 +2,7 @@ import { useState } from "react";
 const Task28_1 = function () {
 	const [numbers, setNumbers] = useState([1, 2, 3, 4, 5, 6, 7, 8, 9]);
 	console.log(numbers);
+	console.log(Number(null));
 
 	function getAverage(arr) {
 		// return arr.reduce((summ, num) => summ + num) / arr.length;
@@ -11,13 +12,10 @@ const Task28_1 = function () {
 				sum += num;
 			};
 		};
-		return sum;
+		return sum / arr.filter(n => n > 0).length;
 	};
 
 	function handlerChange(index, event) {
-		console.log(index);
-		console.log(event.target.value);
-		console.log();
 		setNumbers([...numbers.slice(0, index), Number(event.target.value), ...numbers.slice(index + 1)])
 	}
 
