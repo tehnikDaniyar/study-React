@@ -66,7 +66,7 @@ button {
 	background-color: aqua;
 	font-size: 18px;
 	font-weight: 600;
-	margin-bottom: 20px;
+	/* margin-bottom: 20px; */
 	cursor: pointer;
 }
 
@@ -158,4 +158,10 @@ p {
 	margin: 0 auto;
 	padding: 10px;
 	margin-bottom: 30px;
+}
+
+.them29_1 p {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
 }
