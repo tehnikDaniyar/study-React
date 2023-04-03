@@ -72,6 +72,7 @@ import { Task9_1 } from './modules/task9/task9_1';
 import { task9_2 } from './modules/task9/task9_2';
 import { task9_3 } from './modules/task9/task9_3';
 import Task29_1 from './modules/task29/task29_1';
+import Task30 from './modules/task30/task30';
 
 
 
@@ -123,6 +124,7 @@ function App() {
 		<Task27_2 />
 		<Task28_1></Task28_1>
 		<Task29_1></Task29_1>
+		<Task30></Task30>
 	</>
 };
 

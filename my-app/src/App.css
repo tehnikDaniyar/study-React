@@ -165,3 +165,11 @@ p {
 	justify-content: space-between;
 	align-items: center;
 }
+
+.red {
+	background-color: red;
+}
+
+.green {
+	background-color: green;
+}
