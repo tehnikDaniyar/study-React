@@ -74,6 +74,10 @@ import { task9_3 } from './modules/task9/task9_3';
 import Task29_1 from './modules/task29/task29_1';
 import Task30 from './modules/task30/task30';
 import Task30_1 from './modules/task30/task30_1';
+import Task30_2 from './modules/task30/task30_2';
+import Task30_3 from './modules/task30/ask30_3';
+import Task31 from './modules/task31/task31';
+import Task31_1 from './modules/task31/task31_1';
 
 
 
@@ -127,6 +131,10 @@ function App() {
 		<Task29_1></Task29_1>
 		<Task30></Task30>
 		<Task30_1></Task30_1>
+		<Task30_2></Task30_2>
+		<Task30_3></Task30_3>
+		<Task31></Task31>
+		<Task31_1></Task31_1>
 	</>
 };
 
