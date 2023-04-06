@@ -78,6 +78,7 @@ import Task30_2 from './modules/task30/task30_2';
 import Task30_3 from './modules/task30/ask30_3';
 import Task31 from './modules/task31/task31';
 import Task31_1 from './modules/task31/task31_1';
+import Task32_1 from './modules/task32/task32_1';
 
 
 
@@ -135,6 +136,7 @@ function App() {
 		<Task30_3></Task30_3>
 		<Task31></Task31>
 		<Task31_1></Task31_1>
+		<Task32_1></Task32_1>
 	</>
 };
 
